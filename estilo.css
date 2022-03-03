@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(185, 185, 196);
+}
+
+.titulo{
+    background-color: rgb(143, 177, 177);
+    max-width: fit-content;
+}
+
+.ti {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(107, 102, 93);
+    width: 90%;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    display: block;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: rgb(163, 173, 68);
+}
+
+
+
+@media screen and (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+
+    .menu{
+        padding: 10px 0px;
+    }
+}
